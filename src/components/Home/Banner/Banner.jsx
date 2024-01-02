@@ -18,7 +18,7 @@ const Banner = () => {
       id="banner"
       className="relative bg-[url('https://i.ibb.co/mJ7vwZF/line.png')] bg-cover bg-center bg-no-repeat"
     >
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center py-20">
+      <div className="container mx-auto px-1 lg:px-0 grid grid-cols-1 md:grid-cols-2 items-center py-20">
         {/* banner info  */}
         <div className="space-y-4">
           <Tilt>
