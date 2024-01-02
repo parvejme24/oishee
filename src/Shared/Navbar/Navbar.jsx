@@ -19,6 +19,9 @@ const Navbar = () => {
         <a href="#goProbono">Go Probono</a>
       </li>
       <li>
+        <a href="#awards">Awards</a>
+      </li>
+      <li>
         <a href="#projects">Projects</a>
       </li>
       <li>

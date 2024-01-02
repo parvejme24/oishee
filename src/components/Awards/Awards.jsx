@@ -5,7 +5,10 @@ import { awards } from "../../../public/data";
 
 const Awards = () => {
   return (
-    <div className="py-24 px-4 lg:px-0 border-t-2 border-[#00008876] border-dashed">
+    <div
+      id="awards"
+      className="py-24 px-4 lg:px-0 border-t-2 border-[#00008876] border-dashed"
+    >
       <div id="goProbono" className="container mx-auto ">
         <h2
           daa-aos="fade"
