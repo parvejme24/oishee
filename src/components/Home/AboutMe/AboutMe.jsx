@@ -6,9 +6,9 @@ const AboutMe = () => {
     <div id="about" className="border border-dashed border-y-2 border-[#00008870] py-24">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-center">
         <div className="flex justify-center items-center">
-          <img className="rounded-lg" src={image} alt="" />
+          <img data-aos="fade" className="rounded-lg" src={image} alt="" />
         </div>
-        <div className="lg:col-span-2">
+        <div data-aos="fade" className="lg:col-span-2">
           <h2 className="text-5xl font-bold text-[#000088]">About Me</h2>
           <hr className="h-1 bg-[#000088] w-56 mt-2" />
           <p className="mt-8 text-[18px]">
